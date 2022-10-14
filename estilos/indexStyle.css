@@ -1,0 +1,327 @@
+body{
+    width: 860px;
+    margin: 0 auto;
+    border: 2.5px solid transparent;
+    box-shadow: 12px 12px 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    background-color: #008080;
+    width: 100%;
+    height: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imagem__cabecalho{
+    height: 200px;
+    margin: 25px 0 25px 40px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.cabecalho__titulo{
+    font-size: 30px;
+}
+
+.cabecalho__nome{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 30px;
+    border-bottom: 1px solid  black; 
+}
+
+.cabecalho__funcao{
+    padding: 10px 0 0 25%;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #FDFDFD
+}
+
+.coluna-esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px 0 1em 0;
+    border-right: 1px solid black;     
+}
+
+.coluna-direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px 0 1em 1em;
+}
+
+.corpo__titulo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.corpo__titulo::after{
+    content: "______________________";
+    padding: 0 0 0 10px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.corpo__texto{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 1.5px;
+    line-height: 1.3;
+}
+
+.corpo__inicio{
+    width: 75%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 10px 0;
+}
+
+.material-symbols-outlined{
+    font-size: 30px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    border: 5px solid transparent;
+    background-color: lightblue;
+    border-radius: 100px;
+}
+
+.caixa__relativa{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 5px;
+}
+
+.caixa__habilidades--dns{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.caixa__habilidades--dns::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--dhcp{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--dhcp::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--cloud{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--cloud::after{
+    content: "";
+    width: 10%;
+    background: #008080;
+}
+
+.caixa__habilidades--ingles{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--ingles::after{
+    content: "";
+    width: 20%;
+    background: #008080;
+}
+
+.caixa__habilidades--vagrant{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--vagrant::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--switch{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--switch::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--firewall{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--firewall::after{
+    content: "";
+    width: 30%;
+    background: #008080;
+}
+
+.caixa__habilidades--hypervisor{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--hypervisor::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--rotedor{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--rotedor::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--banco{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--banco::after{
+    content: "";
+    width: 10%;
+    background: #008080;
+}
+
+.caixa__habilidades--linux{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--linux::after{
+    content: "";
+    width: 70%;
+    background: #008080;
+}
+
+.caixa__habilidades--apache{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--apache::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--rede{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--rede::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.caixa__habilidades--protocolos{
+    height: 10px;
+    width: 30%;
+    padding: 1.3px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+}
+
+.caixa__habilidades--protocolos::after{
+    content: "";
+    width: 50%;
+    background: #008080;
+}
+
+.unicode__seta{
+    padding: 0 10px;
+}
+
+.rodape{
+    background-color: #008080;
+    height: 20px;
+    text-align: center;
+    padding: 4px;
+}
